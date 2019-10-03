@@ -19,7 +19,6 @@ const getData = async () => {
     cards.forEach((card) => {
       let playerCardChosen = document.createElement('div');
       playerCardChosen.innerHTML = `<img src=${card.image} />`
-      
       playersCards.append(playerCardChosen)
     })
   }
