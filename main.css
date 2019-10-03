@@ -1,34 +1,22 @@
 body {
+  margin: 0;
   background-color: aqua;
-  height: 200px;
-  width: 200px;
+  text-align: center;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #0b0b33;
+  margin: 0;
+  position: fixed;
+  top: 0;
 }
 
 main {
-  background-color: aqua;
-  height: 200px;
-  width: 200px;
-}
-
-.cards-container {
-  display: flex; 
-  
-}
-/* .players-cards {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+  margin-top: 100px;
+  height: 500px;
 }
 
 
-.opponents-cards {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-}
 
-.top-card {
-  background-color: green;
-  height: 200px;
-  width: 200px;
-} */

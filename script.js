@@ -13,7 +13,7 @@ const getData = async () => {
   console.log(opponentDraws)
   const topCard = await axios.get(`https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=1`)
   console.log(topCard)
-  
+
   const showPlayersCards = (cards) => {
     let playersCards = document.querySelector('.players-cards')
     cards.forEach((card) => {
@@ -36,7 +36,7 @@ const getData = async () => {
       let topCardAppended = document.createElement('div');
       topCardAppended.innerHTML = `<img src=${card.image} />`
       topCard.append(topCardAppended)
-    
+
     })
   }
   showPlayersCards(playerDraws.data.cards)
@@ -46,10 +46,10 @@ const getData = async () => {
 }
 button.addEventListener("click", getData)
 
-// player chooses a card to throw on the discard pile 
+// // player chooses a card to throw on the discard pile 
 
-const ridCard = (array) => {
-  for (let i = 0; i < array.length; i += 1)
+// const ridCard = (array) => {
+//   for (let i = 0; i < array.length; i += 1)
     
     
   }
@@ -62,17 +62,17 @@ const ridCard = (array) => {
 
 }
 
- {
-   playerDraws[i].addeventlistener("click", pickCard)
-  }
+{
+  playerDraws[i].addeventlistener("click", pickCard)
+}
 
-const 
+const
 
 const drawNewCard = await axios.get(`https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=1`)
 
 
 
-
+const BASE_URL = `${DOMAIN}jokes/random?firstName=John&amp;last
 
 
 
