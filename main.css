@@ -33,10 +33,6 @@ main {
   height: 900px;
   background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cn-vid-set-01-1-1548177289.jpg?crop=1.00xw:1.00xh;0,0&resize=480:*);
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   overflow-y: scroll;
 }
 
@@ -44,7 +40,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px 0px 10px;
+  padding: 350px 10px 0px 10px;
   margin: 10px 10px 0px 10px;
 }
 
@@ -68,12 +64,26 @@ button {
   flex-direction: column;
   justify-content: center;
 }
+
+#blank {
+  width: 150px;
+  height: 25px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+
 @media (max-width: 600px) {
+  
+  
   body {
     color: chartreuse;
   }
-  header {
-    height: 200px;
+  main {
+    background-position: center;
+  }
+  header a{
+    font-size: 12px;
   }
 }
 

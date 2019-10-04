@@ -1,3 +1,0 @@
-const deckId = response.data.deck_id
-  const secondresponse = await axios.get(`https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=2`)
-  console.log(secondresponse)
