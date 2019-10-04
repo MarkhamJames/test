@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background-color: aqua;
   text-align: center;
+  color: magenta;
 }
 
 header {
@@ -13,10 +13,75 @@ header {
   top: 0;
 }
 
-main {
-  margin-top: 100px;
-  height: 500px;
+header a {
+  color: white;
+  line-height: 100px;
+  margin-right: 5%;
+  text-decoration: none;
 }
+
+
+header a:hover {
+  font-weight: bold;
+  color: lightgrey;
+}
+
+main {
+  
+  height: 700px;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNXPB5DGLmnXANAPOY-61lUk1slEROpBCSkxvDLNPaHmBpMleP);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-impressions {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 0px 10px;
+  margin: 10px 10px 0px 10px;
+}
+
+button {
+  text-transform: uppercase;
+  border: 1px solid black;
+  background-color: #c52695;
+  padding: 8px;
+  margin: 8px; 
+  border-radius: 14%;
+}
+
+.subtitle {
+  font-size: 30px;
+}
+
+.jokes {
+  padding: 0px 10px 10px 10px;
+  margin: 0px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+@media (max-width: 600px) {
+  body {
+    color: chartreuse;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    background-color: red;
+  }
+}
+
 
 
 
