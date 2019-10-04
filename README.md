@@ -1,32 +1,19 @@
-# Crazy Eights Simulator
+# Chuck Norris Jokes
 
 ---
 
+## Website URL
+
+chuck-n.surge.sh/ is the URL.  No further installation is necessary
+
 ## Project Usage
 
-Crazy Eights Simulator is a card game simulator that allows the user to play a game of Crazy Eight's.  The game is built using HTML, CSS, and Javascript.  The user and opponet are both dealt five cards. the rest of the deck is left on the table with one card from the dark turned over.  The user and opponent take turns trying to accumulate points by getting rid of a card from their set that matches the suit or number of the overturned card. The user will play against the simulator as the only opponent.  New games can be started through a refresh option.      
+Chuck Norris Jokes is a program built with HTML, CSS, and Javascript to provide the user with an endless supply of Chuck Norris.  A joke appears on the screen after the user enters his or her name into the input field and presses the play button.  The program delivers a joke using the entered name.     
 
-## Wireframes
-
-![Desktop](https://cacoo.com/diagrams/PivWygawk5KxbEo4-88CF5.png)
-
-![mobile](https://cacoo.com/diagrams/PivWygawk5KxbEo4-84FC1.png)
 
 ## API
+www.icndb.com is the base URL where the API used in this program "the Internet Chuck Norris Database is located".  This API is the source for all the Chuck Norris jokes that appear on screen once the user name is entered.
 
-I plan on using a card deck API [API](https://deckofcardsapi.com/).  I plan to use all the data included in the API to meet MVP. Data includes methods for drawing cards, shuffling cards, adding, drawing, and listing cards in piles.
+## About the Site
+The idea for this website was formulated with the intent to successfully retrieve data from an external API after receiving a command from the user.  One major hurdle that I encountered during the program's construction involved entering a separate first and last name coming from the user input into their respective indices in the API UPL endpoint.  The user enters a string value inside the input bar which needs to be converted into an array.  This array then needs to be split into two indices representing the First and Last name using the '.split' method.  This array then can be used in the URL endpoint.  Font and header changes are utilized for different screen sizes.     
 
-## Features
-
-- Navigation bar
-- Cards animate to flip around and reveal thier value when clicked
-- points accumulated and recorded
-- Cards are fully shuffled between games
-- Cards drawn from pile when needed and players card added to upturned card when match is recognized
-- modals for navigation bar
-
-## Strech Goals
-
-- difficulty setting
-- timed games
-- more card games other than crazy eights 
